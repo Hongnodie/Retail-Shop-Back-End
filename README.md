@@ -97,7 +97,7 @@
     <img src="./assets/13-orm-homework-demo-02.gif" width="30%">
     <img src="./assets/13-orm-homework-demo-03.gif" width="30%">
   </p>
-  
+
   ## Screenshot
 
   <img src="./assets/Retail-Shop-Back-End_Screenshot.png" width="100%">
@@ -138,6 +138,6 @@
 
   If you have any questions about the project you can reach out to me via email or GitHub with the information below. 
 
-  >Email: 92ganhong@gmail.com 
+  >Email  : 92ganhong@gmail.com 
 
   >GitHub : [Hongnodie](https://github.com/Hongnodie)
