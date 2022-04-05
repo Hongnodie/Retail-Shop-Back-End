@@ -92,10 +92,12 @@
 
   #### Demo
 
-  <img src="./assets/13-orm-homework-demo-01.gif" width="30%">
-  <img src="./assets/13-orm-homework-demo-02.gif" width="30%">
-  <img src="./assets/13-orm-homework-demo-03.gif" width="30%">
-
+  <p float="left">
+    <img src="./assets/13-orm-homework-demo-01.gif" width="30%">
+    <img src="./assets/13-orm-homework-demo-02.gif" width="30%">
+    <img src="./assets/13-orm-homework-demo-03.gif" width="30%">
+  </p>
+  
   ## Screenshot
 
   <img src="./assets/Retail-Shop-Back-End_Screenshot.png" width="100%">
