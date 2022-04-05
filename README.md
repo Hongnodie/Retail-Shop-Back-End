@@ -48,59 +48,59 @@
 
   <details>
   <summary>User Story</summary>
-
-  AS a business owner <br>
-  I want to be able to view and manage the departments, roles, and employees in my company <br>
-  SO that I can organize and plan my business. <br>
+    AS A manager at an internet retail company <br>
+    I WANT a back end for my e-commerce website that uses the latest technologies <br>
+    SO THAT my company can compete with other e-commerce companies <br>
   </details>
 
   <details>
   <summary>Acceptance Criteria</summary>
-  <br>
-    GIVEN a command-line application that accepts user input <br>
-    WHEN I start the application <br>
-    THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role <br>
 
-    WHEN I choose to view all departments <br>
-    THEN I am presented with a formatted table showing department names and department ids <br>
-    WHEN I choose to view all roles <br>
-    THEN I am presented with the job title, role id, the department that role belongs to, and the salary for that role <br>
-    WHEN I choose to view all employees <br>
-    THEN I am presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to <br>
+    WHEN I add my database name, MySQL username, and MySQL password to an environment variable file <br>
+    THEN I am able to connect to a database using Sequelize <br>
+    WHEN I enter schema and seed commands <br>
+    THEN a development database is created and is seeded with test data <br>
+    WHEN I enter the command to invoke the application <br>
+    THEN my server is started and the Sequelize models are synced to the MySQL database <br>
 
-    WHEN I choose to add a department <br>
-    THEN I am prompted to enter the name of the department and that department is added to the database
-    WHEN I choose to add a role <br>
-    THEN I am prompted to enter the name, salary, and department for the role and that role is added to the database
-    WHEN I choose to add an employee <br>
-    THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
-    
-    WHEN I choose to update an employee role <br>
-    THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
+    WHEN I open API GET routes in Insomnia for categories, products, or tags <br>
+    THEN the data for each of these routes is displayed in a formatted JSON <br>
+
+    WHEN I test API POST, PUT, and DELETE routes in Insomnia <br>
+    THEN I am able to successfully create, update, and delete data in my database <br>
+
   </details>
 
   <details>
   <summary>Other Demanded Sources</summary>
-  [MySQL2 package](https://www.npmjs.com/package/mysql2) to connect to your MySQL database and perform queries <br>
-  [Inquirer package](https://www.npmjs.com/package/inquirer) to interact with the user via the command line <br>
-  [console.table package](https://www.npmjs.com/package/console.table) to print MySQL rows to the console.
+
+  MySQL2 npm package-(https://www.npmjs.com/package/mysql2) to connect to your MySQL database and perform queries <br>
+
+  Sequelize npm package-(https://www.npmjs.com/package/sequelize) "jquery" in controlling the server (back end), featured in solid transaction support and easy-to-code relations <br>
+
+  dotenv npm package-(https://www.npmjs.com/package/dotenv) a zero-dependency module to connect user interface with port by setting the environment variables.
+
   </details>
 
   <details>
   <summary>Instructions on coding</summary>
+
   [SQL tutorial](https://www.dofactory.com/sql)-Easy and clear documentation by third party <br>
   [Join 3 Tables (or More) in SQL](https://www.dofactory.com/sql/join-3-tables)-How to Join 3 Tables (or More) in SQL <br>
+
   </details>
 
   #### Demo
-  
-  ![Demo](./asset/Demo.png)
+
+  <img src="./assets/13-orm-homework-demo-01.gif" width="30%">
+  <img src="./assets/13-orm-homework-demo-02.gif" width="30%">
+  <img src="./assets/13-orm-homework-demo-03.gif" width="30%">
 
   ## Screenshot
 
-  <img src="./asset/Employee-Tracker_Screenshot.png" width="600">
+  <img src="./assets/Retail-Shop-Back-End_Screenshot.png" width="100%">
 
-  [See code package at Github](https://github.com/Hongnodie/Employee-Tracker.git)
+  [See code package at Github](https://github.com/Hongnodie/Retail-Shop-Back-End.git)
   
   ## License
   <details>
