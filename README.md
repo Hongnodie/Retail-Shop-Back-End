@@ -48,9 +48,13 @@
 
   <details>
   <summary>User Story</summary>
+
+  ```
     AS A manager at an internet retail company <br>
     I WANT a back end for my e-commerce website that uses the latest technologies <br>
-    SO THAT my company can compete with other e-commerce companies <br>
+    SO THAT my company can compete with other e-commerce companies 
+  ```
+  
   </details>
 
   <details>
