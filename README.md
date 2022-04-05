@@ -3,7 +3,6 @@
   ## Description
 
   The back end for an e-commerce site. A working Express.js API is coupled with Sequelize to interact with a MySQL database.
-
   ## Table of Contents
 
   * [Installation](#installation)
@@ -17,8 +16,30 @@
 
   ## Installation
 
-  If you would prefer to run this page on your local machine simply clone the repo and run the command `npm i` in your terminal. This will download all the dependencies you need to run the project. 
+  If you would prefer to run this page on your local machine simply clone the repo and run the command `npm i` in your terminal. This will download all the dependencies you need to run the project. Alternatively, each dependancies can be installed one after another as:
 
+  ```
+  npm install mysql2
+  npm install inquirer
+  npm install console.table --save
+  ```
+
+  Next is to initiate the database by using the following code (each line is a command--press enter after each):
+  ```
+  mysql -u root -p
+  <password>
+  SOURCE db/tracker.sql;
+  SOURCE db/seed.sql;
+  exit
+  ```
+
+  Then use the following command to start this app in shell (right click and open integrated terminal):
+
+  ```
+  node app.js
+  ```
+
+  See instruction video at
   [Employee-Tracker Instruction](https://drive.google.com/file/d/1r_QTvatfvBzdx9O4peyzioPRIwdILydC/view) <br>
   
   Available also at https://watch.screencastify.com/v/8lh3Ujn0YT4elGl9caij
@@ -71,14 +92,13 @@
   [Join 3 Tables (or More) in SQL](https://www.dofactory.com/sql/join-3-tables)-How to Join 3 Tables (or More) in SQL <br>
   </details>
 
-  <details>
-  <summary>Demo</summary>
-  [Demo](./asset/Demo.png)
-  </details>
+  #### Demo
+  
+  ![Demo](./asset/Demo.png)
 
   ## Screenshot
 
-  ![Screenshot of app](./asset/Employee-Tracker_Screenshot.png)
+  <img src="./asset/Employee-Tracker_Screenshot.png" width="600">
 
   [See code package at Github](https://github.com/Hongnodie/Employee-Tracker.git)
   
