@@ -186,6 +186,7 @@
 
   <details>
   <summary>Other Demanded Sources</summary>
+  <br>
 
   MySQL2 npm package-(https://www.npmjs.com/package/mysql2) to connect to your MySQL database and perform queries <br>
 
@@ -197,12 +198,13 @@
 
   <details>
   <summary>Instructions on coding</summary>
+  <br>
 
   [SQL tutorial](https://www.dofactory.com/sql)-Easy and clear documentation by third party <br>
   [Join 3 Tables (or More) in SQL](https://www.dofactory.com/sql/join-3-tables)-How to Join 3 Tables (or More) in SQL <br>
 
-
   [Github Formatting](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)-basic-writing-and-formatting-syntax
+  
   </details>
 
   #### Demo
