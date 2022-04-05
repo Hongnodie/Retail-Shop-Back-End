@@ -187,7 +187,7 @@
 
   Sequelize npm package-(https://www.npmjs.com/package/sequelize) "jquery" in controlling the server (back end), featured in solid transaction support and easy-to-code relations <br>
 
-  dotenv npm package-(https://www.npmjs.com/package/dotenv) a zero-dependency module to connect user interface with port by setting the environment variables.
+  dotenv npm package-(https://www.npmjs.com/package/dotenv) a zero-dependency module to provide necessary headers to accessible/allocated port by pre-defining the environment variables.
 
   </details>
 
