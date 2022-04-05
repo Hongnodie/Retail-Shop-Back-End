@@ -204,7 +204,7 @@
   [Join 3 Tables (or More) in SQL](https://www.dofactory.com/sql/join-3-tables)-How to Join 3 Tables (or More) in SQL <br>
 
   [Github Formatting](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)-basic-writing-and-formatting-syntax
-  
+
   </details>
 
   #### Demo
@@ -227,8 +227,9 @@
   <details>
   
   <summary>MIT License</summary>
-  
-  > Copyright (c) [2022] [Hongnodie]
+  <br>
+
+  Copyright (c) [2022] [Hongnodie]
   > 
   > __Permission is hereby granted, free of charge, to any person obtaining a copy__
   > __of this software and associated documentation files (the "Software"), to deal__
