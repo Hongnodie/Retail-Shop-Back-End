@@ -16,7 +16,7 @@
 
   ## Installation
 
-  If you would prefer to run this page on your local machine simply clone the repo and run the command `npm i` in your terminal. This will download all the dependencies you need to run the project. Alternatively, each dependancies can be installed one after another as:
+  If you would prefer to run this page on your local machine simply clone the repo and run the command `npm i` in your terminal (right click and open integrated terminal). This will download all the dependencies you need to run the project. Alternatively, each dependancies can be installed one after another as:
 
   ```
   npm install mysql2
@@ -33,7 +33,7 @@
   exit
   ```
 
-  Then use the following command to start this app in shell (right click and open integrated terminal):
+  Then use the following command to start this app in shell:
 
   ```
   node app.js
@@ -100,8 +100,10 @@
 
   ## Screenshot
 
-  <img src="./assets/Retail-Shop-Back-End_Screenshot.png" width="100%">
-
+  <p align="center">
+    <img src="./assets/Retail-Shop-Back-End_Screenshot.png" width="100%">
+  </p>
+  
   [See code package at Github](https://github.com/Hongnodie/Retail-Shop-Back-End.git)
   
   ## License
