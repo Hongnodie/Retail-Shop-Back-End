@@ -58,6 +58,7 @@ router.put('/:id', (req, res) => {
     .then((product) => {
       // find all associated tags from ProductTag
       return ProductTag.findAll({ where: { product_id: req.params.id } });
+      // Add "{ raw: true }" if only requested data to be acquired
     })
     .then((productTags) => {
       // get list of current tag_ids
@@ -80,6 +81,7 @@ router.put('/:id', (req, res) => {
       return Promise.all([
         ProductTag.destroy({ where: { id: productTagsToRemove } }),
         ProductTag.bulkCreate(newProductTags),
+        // Add ", { validate: true }" - If we want to make bulkCreate run these validations as well
       ]);
     })
     .then((updatedProductTags) => res.json(updatedProductTags))

@@ -13,11 +13,12 @@ Product.init(
   },
   {
     sequelize,
-    timestamps: false,
-    freezeTableName: true,
+    timestamps: false,      // not adding time-stamp (createdAt and updatedAt)
+    freezeTableName: true,  // Sequelize will infer the table name to be equal to the model name, without any modifications
     underscored: true,
     modelName: 'product',
   }
 );
 
 module.exports = Product;
+
