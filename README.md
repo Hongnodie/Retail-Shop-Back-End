@@ -32,7 +32,7 @@
   exit
   ```
   
-  After that, do create a file called ".env" in the root folder, and put the following code into that file, please do be careful that "<>" means your personal settings, like you put " DB_PW='root' " in the second line:
+  After that, do create a file called ".env" in the root folder, and put the following code into that file, please do be careful that "<>" means your personal settings, i.e. you put " DB_PW='root' " in the second line:
 
   ```
   DB_USER='<your user_name>'
