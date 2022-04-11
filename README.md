@@ -18,31 +18,42 @@
 
   ## Installation
 
-  If you would prefer to run this page on your local machine simply clone the repo and run the command `npm i` in your terminal (right click and open integrated terminal). This will download all the dependencies you need to run the project. Alternatively, each dependancies can be installed one after another as:
+  Simply clone the repo to local and run the following command in your terminal (right click and open integrated terminal). This will download all the dependencies you need to run the project:
 
   ```
-  npm install mysql2
-  npm install inquirer
-  npm install console.table --save
+  npm i 
   ```
 
   Next is to initiate the database by using the following code (each line is a command--press enter after each):
   ```
   mysql -u root -p
   <password>
-  SOURCE db/tracker.sql;
-  SOURCE db/seed.sql;
+  SOURCE db/schema.sql;
   exit
   ```
-
-  Then use the following command to start this app in shell:
+  
+  After that, do create a file called ".env" in the root folder, and put the following code into that file, please do be careful that "<>" means your personal settings, like you put " DB_PW='root' " in the second line:
 
   ```
-  node app.js
+  DB_USER='<your user_name>'
+  DB_PW='<your password>'
+  DB_NAME='ecommerce_db'
   ```
+
+  Then use the following command to load some predefined seed data into database:
+
+  ```
+  node seeds
+  ```
+
+  Lastly, run the following to start the bad-end app:
+
+  ```
+  node server
+  ```  
 
   See instruction video at
-  [Retail-Shop-Back-End Instruction](https://drive.google.com/file/d/1r_QTvatfvBzdx9O4peyzioPRIwdILydC/view) <br>
+  [Retail-Shop-Back-End Instruction](https://drive.google.com/file/d/1r_QTvatfvBzdx9O4peyzioPRIwdILydC/view)-https://drive.google.com/file/d/1r_QTvatfvBzdx9O4peyzioPRIwdILydC/view <br>
   
   Available also at https://watch.screencastify.com/v/8lh3Ujn0YT4elGl9caij
 
