@@ -14,3 +14,4 @@ app.use(routes);
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}!`);
 });
+// use User.sync({ force: true }) - if want to creates the table, dropping it first if it already existed
