@@ -53,9 +53,9 @@
   ```  
 
   See instruction video at
-  [Retail-Shop-Back-End Instruction](https://drive.google.com/file/d/1r_QTvatfvBzdx9O4peyzioPRIwdILydC/view)-https://drive.google.com/file/d/1r_QTvatfvBzdx9O4peyzioPRIwdILydC/view <br>
+  [Retail-Shop-Back-End Instruction video](https://drive.google.com/file/d/1HJlikODcMRR1V6zYQyo2iGY91Jqb36VA/view)-https://drive.google.com/file/d/1HJlikODcMRR1V6zYQyo2iGY91Jqb36VA/view <br>
   
-  Available also at https://watch.screencastify.com/v/8lh3Ujn0YT4elGl9caij
+  Available also at https://watch.screencastify.com/v/YFhs9GV5mcMfxWmyxFC7
 
   ## Usage
 
@@ -213,8 +213,7 @@
   <summary>Instructions on coding</summary>
   <br>
 
-  [SQL tutorial](https://www.dofactory.com/sql)-Easy and clear documentation by third party <br>
-  [Join 3 Tables (or More) in SQL](https://www.dofactory.com/sql/join-3-tables)-How to Join 3 Tables (or More) in SQL <br>
+  [Sequelize tutorial](https://sequelize.org/docs/v6/getting-started/) <br>
 
   [Github Formatting](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)-basic-writing-and-formatting-syntax
 
@@ -231,7 +230,7 @@
   ## Screenshot
 
   <p align="center">
-    <img src="./assets/Retail-Shop-Back-End_Screenshot.png" width="100%">
+    <img src="./assets/Retail-Shop-Back-End.gif" width="100%">
   </p>
   
   [See code package at Github](https://github.com/Hongnodie/Retail-Shop-Back-End.git)
